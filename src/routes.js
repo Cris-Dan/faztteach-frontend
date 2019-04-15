@@ -8,7 +8,7 @@ import Page404 from './components/Page404';
 const AppRoutes = () =>
     <App>
         <Switch>
-            <Route path="/" component={Home}></Route>
+            <Route exact path="/" component={Home}></Route>
             <Route component={Page404}></Route>
         </Switch>
     </App>;
